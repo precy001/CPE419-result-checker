@@ -1,0 +1,346 @@
+const data = [
+  {
+    "S/N": "S/N",
+    "FULL NAME": "FULL NAME",
+    "MATRIC": "MATRIC",
+    "CA/40": "CA",
+    "Total Exam/60": "Total Exam/60",
+    "Total/100": "Total/100"
+  },
+  {
+    "S/N": 1,
+    "FULL NAME": "IDOWU OLUWAFEMI P",
+    "MATRIC": 160408034,
+    "CA/40": 27,
+    "Total Exam/60": 18,
+    "Total/100": 45
+  },
+  {
+    "S/N": 2,
+    "FULL NAME": "OGUNDIMU HEZEKIAH OLUWADAMILARE",
+    "MATRIC": 170408006,
+    "CA/40": 34.5,
+    "Total Exam/60": 42.5,
+    "Total/100": 77
+  },
+  {
+    "S/N": 3,
+    "FULL NAME": "ASONIBARE OLUWATOBI GABRIEL",
+    "MATRIC": 170408038,
+    "CA/40": 20,
+    "Total Exam/60": 25,
+    "Total/100": 45
+  },
+  {
+    "S/N": 4,
+    "FULL NAME": "ALIYU ISRAEL ADAVIZE",
+    "MATRIC": 170408043,
+    "CA/40": 30,
+    "Total Exam/60": 30,
+    "Total/100": 60
+  },
+  {
+    "S/N": 5,
+    "FULL NAME": "UZOHO ONYEDIKACHI BEDE",
+    "MATRIC": 170809503,
+    "CA/40": 25,
+    "Total Exam/60": 20,
+    "Total/100": 45
+  },
+  {
+    "S/N": 6,
+    "FULL NAME": "FABIDUN ADEOLUWA SAMUEL",
+    "MATRIC": 180408002,
+    "CA/40": 25,
+    "Total Exam/60": 22,
+    "Total/100": 47
+  },
+  {
+    "S/N": 7,
+    "FULL NAME": "UNOKERIEGHAN SARAH UROW",
+    "MATRIC": 180408003,
+    "CA/40": 28.5,
+    "Total Exam/60": 35.5,
+    "Total/100": 64
+  },
+  {
+    "S/N": 8,
+    "FULL NAME": "NNOROM NONSO PROSPER",
+    "MATRIC": 180408005,
+    "CA/40": 25,
+    "Total Exam/60": 25,
+    "Total/100": 50
+  },
+  {
+    "S/N": 9,
+    "FULL NAME": "SHABI MOYINOLUWA TAIWO",
+    "MATRIC": 180408008,
+    "CA/40": 30,
+    "Total Exam/60": 41,
+    "Total/100": 71
+  },
+  {
+    "S/N": 10,
+    "FULL NAME": "EMEH MATHEW C",
+    "MATRIC": 180408011,
+    "CA/40": 27,
+    "Total Exam/60": 51,
+    "Total/100": 78
+  },
+  {
+    "S/N": 11,
+    "FULL NAME": "ADE-OJO BOLUWATIFE PETER",
+    "MATRIC": 180408012,
+    "CA/40": 28,
+    "Total Exam/60": 25,
+    "Total/100": 53
+  },
+  {
+    "S/N": 12,
+    "FULL NAME": "FAROUNBI ABIOLA ESTHER",
+    "MATRIC": 180408013,
+    "CA/40": 26,
+    "Total Exam/60": 38,
+    "Total/100": 64
+  },
+  {
+    "S/N": 13,
+    "FULL NAME": "UTIBE-UBOM DIVINE JUDAH",
+    "MATRIC": 180408014,
+    "CA/40": 25,
+    "Total Exam/60": 31,
+    "Total/100": 56
+  },
+  {
+    "S/N": 14,
+    "FULL NAME": "ATOBILOYE HIQMAT OLAYINKA",
+    "MATRIC": 180408015,
+    "CA/40": 34,
+    "Total Exam/60": 51,
+    "Total/100": 85
+  },
+  {
+    "S/N": 15,
+    "FULL NAME": "ADEBISI ADEDOLAPO JEREMAI",
+    "MATRIC": 180408016,
+    "CA/40": 29,
+    "Total Exam/60": 16,
+    "Total/100": 45
+  },
+  {
+    "S/N": 16,
+    "FULL NAME": "KUYE DAMILOLA HARRY",
+    "MATRIC": 180408018,
+    "CA/40": 34,
+    "Total Exam/60": 49,
+    "Total/100": 83
+  },
+  {
+    "S/N": 17,
+    "FULL NAME": "BISIRIYU GABRIEL O",
+    "MATRIC": 180408019,
+    "CA/40": 29,
+    "Total Exam/60": 31,
+    "Total/100": 60
+  },
+  {
+    "S/N": 18,
+    "FULL NAME": "AHOTIN PESU MAUTIN",
+    "MATRIC": 180408020,
+    "CA/40": 32,
+    "Total Exam/60": 34,
+    "Total/100": 66
+  },
+  {
+    "S/N": 19,
+    "FULL NAME": "BELLO EMMANUEL M",
+    "MATRIC": 180408021,
+    "CA/40": 29,
+    "Total Exam/60": 47,
+    "Total/100": 76
+  },
+  {
+    "S/N": 20,
+    "FULL NAME": "HYEMAN SAMUEL BUBA",
+    "MATRIC": 180408022,
+    "CA/40": 27,
+    "Total Exam/60": 28,
+    "Total/100": 55
+  },
+  {
+    "S/N": 21,
+    "FULL NAME": "ADEYEYE JOHN JESUGBEMI",
+    "MATRIC": 180408023,
+    "CA/40": 30,
+    "Total Exam/60": 25,
+    "Total/100": 55
+  },
+  {
+    "S/N": 22,
+    "FULL NAME": "FAWAZ  ADEMOLA OLALERE",
+    "MATRIC": 180408024,
+    "CA/40": 35,
+    "Total Exam/60": 29,
+    "Total/100": 64
+  },
+  {
+    "S/N": 23,
+    "FULL NAME": "AKPAN EMMANUEL UNWANA",
+    "MATRIC": 180408025,
+    "CA/40": 28,
+    "Total Exam/60": 37,
+    "Total/100": 65
+  },
+  {
+    "S/N": 24,
+    "FULL NAME": "FOUBRI MACDONALD BULOEBI",
+    "MATRIC": 180408027,
+    "CA/40": 0,
+    "Total Exam/60": 0,
+    "Total/100": 0
+  },
+  {
+    "S/N": 25,
+    "FULL NAME": "EHINMOSAN TOLU F. ",
+    "MATRIC": 180408028,
+    "CA/40": 33,
+    "Total Exam/60": 37,
+    "Total/100": 70
+  },
+  {
+    "S/N": 26,
+    "FULL NAME": "ANASI CHIGOZIRI ELTREASURE",
+    "MATRIC": 180408029,
+    "CA/40": 36,
+    "Total Exam/60": 31,
+    "Total/100": 67
+  },
+  {
+    "S/N": 27,
+    "FULL NAME": "ONAKOMAIYA BOLUWATIFE VI",
+    "MATRIC": 180408030,
+    "CA/40": 29,
+    "Total Exam/60": 22,
+    "Total/100": 51
+  },
+  {
+    "S/N": 28,
+    "FULL NAME": "UNO GIDEON OBOHO ",
+    "MATRIC": 180408031,
+    "CA/40": 27,
+    "Total Exam/60": 14,
+    "Total/100": 41
+  },
+  {
+    "S/N": 29,
+    "FULL NAME": "DARAMOLA EZEKIEL OPEYEMI",
+    "MATRIC": 180408033,
+    "CA/40": 32,
+    "Total Exam/60": 43,
+    "Total/100": 75
+  },
+  {
+    "S/N": 30,
+    "FULL NAME": "ADETONA FAVOUR TAIWO",
+    "MATRIC": 180408034,
+    "CA/40": 25,
+    "Total Exam/60": 30,
+    "Total/100": 55
+  },
+  {
+    "S/N": 31,
+    "FULL NAME": "ADULOJU CHARLES OLATUNDE",
+    "MATRIC": 180408035,
+    "CA/40": 26,
+    "Total Exam/60": 34,
+    "Total/100": 60
+  },
+  {
+    "S/N": 32,
+    "FULL NAME": "ERIGO CHIGOZIE N.",
+    "MATRIC": 190408501,
+    "CA/40": 27,
+    "Total Exam/60": 18,
+    "Total/100": 45
+  },
+  {
+    "S/N": 33,
+    "FULL NAME": "ABIDAKUN DOLAPO",
+    "MATRIC": 190408502,
+    "CA/40": 30,
+    "Total Exam/60": 40,
+    "Total/100": 70
+  },
+  {
+    "S/N": 34,
+    "FULL NAME": "MAMAH CHUKWUBUKA V.",
+    "MATRIC": 190408503,
+    "CA/40": 34,
+    "Total Exam/60": 30,
+    "Total/100": 64
+  },
+  {
+    "S/N": 35,
+    "FULL NAME": "AKPOFURE FAITH EMUESIRI",
+    "MATRIC": 190408504,
+    "CA/40": 31.5,
+    "Total Exam/60": 38.5,
+    "Total/100": 70
+  },
+  {
+    "S/N": 36,
+    "FULL NAME": "ADEGBITE NATHAN OLUWASEY",
+    "MATRIC": 190408506,
+    "CA/40": 33,
+    "Total Exam/60": 43,
+    "Total/100": 76
+  },
+  {
+    "S/N": 37,
+    "FULL NAME": "KAMORUDEEN AFEEZ",
+    "MATRIC": 190408507,
+    "CA/40": 34.5,
+    "Total Exam/60": 43.5,
+    "Total/100": 78
+  },
+  {
+    "S/N": 38,
+    "FULL NAME": "EROMO-AIGBEHI OSASUME",
+    "MATRIC": 190408508,
+    "CA/40": 34,
+    "Total Exam/60": 45,
+    "Total/100": 79
+  },
+  {
+    "S/N": 39,
+    "FULL NAME": "IBEKWE GOZIE IKECHUKWU",
+    "MATRIC": 190408509,
+    "CA/40": 30,
+    "Total Exam/60": 27,
+    "Total/100": 57
+  },
+  {
+    "S/N": 40,
+    "FULL NAME": "ALANA MICHEAL ENIOLA",
+    "MATRIC": 190408510,
+    "CA/40": 30,
+    "Total Exam/60": 21,
+    "Total/100": 51
+  },
+  {
+    "S/N": 41,
+    "FULL NAME": "OKORO DERRICK C.",
+    "MATRIC": 190408512,
+    "CA/40": 23,
+    "Total Exam/60": 23,
+    "Total/100": 46
+  },
+  {
+    "S/N": 42,
+    "FULL NAME": "SONTAN OLAJIDE",
+    "MATRIC": 190408513,
+    "CA/40": 31,
+    "Total Exam/60": 32,
+    "Total/100": 63
+  }
+];
